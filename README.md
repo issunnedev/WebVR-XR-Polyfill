@@ -1,6 +1,8 @@
 
 # WebVR-XR-Polyfill - WebVXP
+
 <img width="500" height="258" alt="ar07f1" src="https://github.com/user-attachments/assets/86b468f1-a068-476a-b50d-23fea1783237" />
+
 ## WebVR-XR Polyfill is a compatibility layer that provides an implementation of the deprecated WebVR API on top of the modern WebXR Device API. 
 ### It is intended to enable applications written against WebVR to execute in user agents that no longer expose native WebVR interfaces but do support WebXR.
 
