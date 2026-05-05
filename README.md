@@ -3,7 +3,7 @@
 
 <img width="500" height="258" alt="ar07f1" src="https://github.com/user-attachments/assets/86b468f1-a068-476a-b50d-23fea1783237" />
 
-## WebVR-XR Polyfill is a compatibility layer that provides an implementation of the deprecated WebVR API on top of the modern WebXR Device API. 
+## WebVXP is a compatibility layer that provides an implementation of the deprecated WebVR API on top of the modern WebXR Device API. 
 ### It is intended to enable applications written against WebVR to execute in user agents that no longer expose native WebVR interfaces but do support WebXR.
 
 The polyfill operates by defining WebVR interfaces such as navigator.getVRDisplays, VRDisplay, and associated data structures, and internally mapping their behavior to corresponding WebXR concepts, including XRSystem, XRSession, and XRFrame. Where possible, method calls, pose data, frame submission, and presentation flows are translated to their closest WebXR equivalents. This allows existing application code to execute without modification in environments where only WebXR is available.
@@ -12,4 +12,4 @@ The implementation does not attempt to fully reproduce all historical WebVR beha
 
 The polyfill is designed to be loaded prior to application code so that WebVR interfaces are available at runtime. When a native WebVR implementation is present, the polyfill may defer to the native API or remain inactive, depending on configuration.
 
-This project is intended to support transitional use cases, including maintaining legacy content and assisting incremental migration to WebXR. It should not be considered a long-term substitute for adopting the WebXR API directly.
+### This project is intended to support transitional use cases, including maintaining legacy content and assisting incremental migration to WebXR. It should not be considered a long-term substitute for adopting the WebXR API directly.
