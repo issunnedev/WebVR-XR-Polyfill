@@ -1,6 +1,6 @@
 
 # WebVR-XR-Polyfill - WebVXP
-# !!NOT DONE YET!!
+## This is in no way in a working or usable state!
 <img width="500" height="258" alt="ar07f1" src="https://github.com/user-attachments/assets/86b468f1-a068-476a-b50d-23fea1783237" />
 
 ## WebVXP is a compatibility layer that provides an implementation of the deprecated WebVR API on top of the modern WebXR Device API. 
